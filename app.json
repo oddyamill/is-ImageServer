@@ -1,0 +1,13 @@
+{
+    "name": "kal",
+    "description": "крч можн юзать is-inside.me со своим доменом да",
+    "keywords": [ "is-inside.me" ],
+    "buildpacks": [{ "url": "heroku/nodejs" }],
+    "repository": "https://github.com/oddyamill/is-ImageServer",
+    "env": {
+        "BASE_URL": {
+            "description": "ваш поддомен",
+            "value": "https://.is-inside.me"
+        }
+    }
+}
