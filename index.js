@@ -1,7 +1,7 @@
 const { createServer } = require('http');
 const { request } = require('https');
 
-const base = 'https://.is-inside.me';
+const base = process.env.BASE_URL || 'https://.is-inside.me'; // тип введи сам и получи конфетку
 
 createServer(async (req, res) => {
     if (!req.url || req.url === '/') return res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': Buffer.byteLength('прив))') }).end('прив))');
