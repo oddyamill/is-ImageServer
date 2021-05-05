@@ -1,0 +1,15 @@
+{
+  "name": "is-imageserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oddyamill/is-ImageServer.git"
+  },
+  "keywords": [],
+  "author": "oddyamill",
+  "license": "ISC"
+}
